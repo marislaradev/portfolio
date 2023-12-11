@@ -28,7 +28,7 @@ function Contatos() {
                 <BsGithub className={styles.icone} />
             </a>
 
-            <a href="www.linkedin.com/in/mariana-da-silva-lara" target="_blank" rel='noopenner norefferer'>
+            <a href="https://www.linkedin.com/in/mariana-da-silva-lara/" target="_blank" rel='noopenner norefferer'>
                 <BsLinkedin className={styles.icone} />
             </a>
 
