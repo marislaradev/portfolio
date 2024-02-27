@@ -1,5 +1,5 @@
 import styles from './Sobre.module.css'
-import avatar from './images/mari_ana.png'
+import avatar from './images/mari.png'
 import html from './images/icon-html.svg'
 import css from './images/icon-css.svg'
 import js from './images/icon-js.svg'
