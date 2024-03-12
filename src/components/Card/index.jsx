@@ -1,26 +1,31 @@
-import styles from './Card.module.css';
-import { FaHtml5, FaJs, FaReact, FaCss3Alt  } from "react-icons/fa";
+import styles from "./Card.module.css";
 import { BsArrowRight } from "react-icons/bs";
 
-function Card({ name, description, html_url }) {
-    return (
-        <section className={styles.card}>
-            <h3>{ name }</h3>
-            <p>{ description }</p>
-            <div className={styles.card_footer}>
-                <div className={styles.card_icones}>
-                    <FaHtml5 /> 
-                    <FaCss3Alt />
-                    <FaJs /> 
-                    <FaReact />  
-                </div>
-                <a href={ html_url } target='_blank' rel='noopenner norefferer'
-                className={styles.botao}>
-                    <BsArrowRight />
-                </a>
+function Card({ name, description, html_url, stackIcons }) {
+  return (
+    <section className={styles.card}>
+      <h3>{name}</h3>
+      <p>{description}</p>
+      <div className={styles.card_footer}>
+        <div className={styles.icon_container}>
+          {stackIcons && stackIcons.map((icon, index) => (
+            <div key={index} className={styles.icon}>
+              {icon}
             </div>
-        </section>
-    )
+          ))}
+        </div>
+        <a
+          href={html_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.botao}
+        >
+          <BsArrowRight />
+        </a>
+      </div>
+    </section>
+  );
 }
 
-export default Card
+export default Card;
+

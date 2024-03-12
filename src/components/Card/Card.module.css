@@ -27,7 +27,7 @@
     justify-content: space-between;
 }
 
-.card_icones {
+.icon_container {
     color: var(--red);
     display: flex;
     gap: 10px;
