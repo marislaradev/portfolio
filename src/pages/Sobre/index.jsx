@@ -6,6 +6,9 @@ import js from './images/icon-js.svg'
 import node from './images/icon-node.svg'
 import react from './images/icon-react.svg'
 import sql from './images/icon-sql.svg'
+import express from './images/icon-express.svg'
+import tailwind from './images/icon-tailwind.svg'
+import redux from './images/icon-redux.svg'
 
 function Sobre() {
     return (
@@ -35,6 +38,9 @@ function Sobre() {
                 <img src={react} alt="Ícone do React" />
                 <img src={node} alt="Ícone do Node.js" />
                 <img src={sql} alt="Ícone do SQL" />
+                <img src={express} alt="Ícone do Express" />
+                <img src={tailwind} alt="Ícone do Tailwind" />
+                <img src={redux} alt="Ícone do Redux" />
                 </div>
             </div>
 
