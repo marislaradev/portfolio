@@ -32,9 +32,9 @@ function Contatos() {
                 <BsLinkedin className={styles.icone} />
             </a>
 
-            {/* <a href="#" target="_blank" rel='noopenner norefferer'>
+            <a href="https://wa.me/554591414654" target="_blank" rel='noopenner norefferer'>
                 <BsWhatsapp className={styles.icone} />
-            </a> */}
+            </a> 
 
             </div>
             </section>
