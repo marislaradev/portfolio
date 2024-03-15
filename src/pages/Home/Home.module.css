@@ -48,6 +48,11 @@
     .home {
         flex-direction: column;
     }
+    .home img {
+        max-width: 100%;
+        height: auto;
+        padding-inline: 2.5rem;
+    }
 }
 
 @media (max-width: 480px) {

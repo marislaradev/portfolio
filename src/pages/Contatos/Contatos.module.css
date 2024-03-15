@@ -20,6 +20,15 @@
 .icone {
     font-size: 3rem;
     color: var(--red);
+    transition: transform 0.3s ease;
+}
+
+.icone:hover {
+    transform: scale(1.1)
+}
+
+.img_contatos {
+    height: 350px;
 }
 
 @media (max-width: 768px) {
@@ -30,6 +39,15 @@
 
 @media (max-width: 480px) {
     .icones {
-        gap: 0.5rem;
+        gap: 1rem;
+    }
+    .icone {
+        font-size: 2rem;
+    }
+    .img_contatos {
+        padding-top: 1rem;
+        max-width: 100%;
+        height: auto;
+        padding-inline: 1rem;
     }
 }
