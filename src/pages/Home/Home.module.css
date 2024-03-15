@@ -62,3 +62,23 @@
     }
 }
 
+/* animação */
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animate {
+    transition: transform 1s ease;
+}
+
+.img_home:hover {
+    animation: scaleAnimation 2s infinite;
+}
