@@ -70,6 +70,9 @@
 }
 
 @media (max-width: 480px) {
+    .header span {
+        font-size: 1.3rem;
+    }
     .show {
         width: 100%;
     }
